@@ -26,7 +26,7 @@ spring:
             factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://neikan.shengquan.com/news-admin
+    url: jdbc:mysql://localhost/news-admin
     username: sq
     password: Sq888
     driverClassName: com.mysql.jdbc.Driver
