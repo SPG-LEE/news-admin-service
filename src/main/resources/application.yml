@@ -26,7 +26,7 @@ spring:
             factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://127.0.0.1/news-admin
+    url: jdbc:mysql://neikan.shengquan.com/news-admin
     username: sq
     password: Sq888
     driverClassName: com.mysql.jdbc.Driver
@@ -46,7 +46,7 @@ spring:
       prepStmtCacheSize: 250
       prepStmtCacheSqlLimit: 2048
   redis:
-     host: 127.0.0.1
+     host: neikan.shengquan.com
      port: 6379
      password: Sq888
      ssl: false
